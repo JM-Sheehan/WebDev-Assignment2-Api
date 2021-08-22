@@ -1,1417 +1,490 @@
 export const people = [
     {
         "adult": false,
+        "also_known_as": [],
+        "biography": "LaNasa was born in New Orleans, Louisiana, the daughter of Anne (née Hardin) and Dr. James J. LaNasa, Jr., a plastic surgeon. LaNasa began dancing at the age of 12, and at the age of 14, she was accepted to the North Carolina School of the Arts in Winston-Salem, North Carolina. After an apprenticeship with Milwaukee Ballet, LaNasa danced with Salt Lake City's Ballet West and the Karole Armitage Ballet.\n\nLaNasa assisted John Carrafa with the choreography for the 1989 film Rooftops. She made her screen debut with a small role in the film Catchfire (1990) and in following years appeared in movies and television. LaNasa played the lead role of Bess Bernstein-Flynn Keats in the NBC comedy series Three Sisters (2001-2002), which was cancelled after two seasons. She was a star of the short-lived CBS series Love Monkey (2006), playing Karen Freed, and HBO's 12 Miles of Bad Road.\n\nLaNasa has appeared in guest roles on numerous television series, including CSI: Crime Scene Investigation, Grey's Anatomy, ER, House M.D., Justice, Two and a Half Men, and Seinfeld. She portrayed recurring character Yvonne Dunbar on Judging Amy, Kim McPherson on The Guardian and Beverly Ford on Big Love. Her film credits include Kiss & Tell (1996), Schizopolis (1996), Alfie (2004), Valentine's Day (2010), Jayne Mansfield's Car (2012), The Campaign (2012) and The Frozen Ground (2012). LaNasa stars in the NBC drama series Deception, which premiered as a mid-season replacement during the 2012–13 television season, as Sophia Bowers. Spouse: Grant Show, (18 August 2012 - present) French Stewart, (19 May 1998 - December 2009) (divorced) Dennis Hopper, (17 June 1989 - April 1992) (divorced) 1 child.",
+        "birthday": "1966-12-01",
+        "deathday": null,
         "gender": 1,
+        "homepage": null,
         "id": 169337,
-        "known_for": [
-            {
-                "backdrop_path": "/3IIBf6VlwEyKAX4cN2XCM1gKdgM.jpg",
-                "first_air_date": "2005-03-27",
-                "genre_ids": [
-                    18
-                ],
-                "id": 1416,
-                "media_type": "tv",
-                "name": "Grey's Anatomy",
-                "origin_country": [
-                    "US"
-                ],
-                "original_language": "en",
-                "original_name": "Grey's Anatomy",
-                "overview": "Follows the personal and professional lives of a group of doctors at Seattle’s Grey Sloan Memorial Hospital.",
-                "poster_path": "/clnyhPqj1SNgpAdeSS6a6fwE6Bo.jpg",
-                "vote_average": 8.2,
-                "vote_count": 6478
-            },
-            {
-                "backdrop_path": "/hiK4qc0tZijQ9KNUnBIS1k4tdMJ.jpg",
-                "first_air_date": "2004-11-16",
-                "genre_ids": [
-                    18,
-                    35,
-                    9648
-                ],
-                "id": 1408,
-                "media_type": "tv",
-                "name": "House",
-                "origin_country": [
-                    "US"
-                ],
-                "original_language": "en",
-                "original_name": "House",
-                "overview": "Dr. Gregory House, a drug-addicted, unconventional, misanthropic medical genius, leads a team of diagnosticians at the fictional Princeton–Plainsboro Teaching Hospital in New Jersey.",
-                "poster_path": "/lkvhReTBZ2Ksl0Dl5Oplsf6UYkF.jpg",
-                "vote_average": 8.6,
-                "vote_count": 3816
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/sNsANx5OxYifdcW7UXbyL9GoMCO.jpg",
-                "genre_ids": [
-                    35,
-                    10749
-                ],
-                "id": 32856,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Valentine's Day",
-                "overview": "More than a dozen Angelenos navigate Valentine's Day from early morning until midnight. Three couples awake together, but each relationship will sputter. A grade-school boy wants flowers for his first true love. Two high school seniors plan first-time sex at noon. A TV sports reporter gets the assignment to find romance in LA. A star quarterback contemplates his future. Two strangers meet on a plane. Grandparents, together for years, face a crisis. An 'I Hate Valentine's Day' dinner beckons the lonely and the lied to.",
-                "poster_path": "/qOTcfD2DdnOTmhH0r1TOE09VvNh.jpg",
-                "release_date": "2010-02-10",
-                "title": "Valentine's Day",
-                "video": false,
-                "vote_average": 5.9,
-                "vote_count": 2521
-            }
-        ],
+        "imdb_id": "nm0478762",
         "known_for_department": "Acting",
         "name": "Katherine LaNasa",
-        "popularity": 129.807,
+        "place_of_birth": "New Orleans, Louisiana, USA",
+        "popularity": 371.721,
         "profile_path": "/a1T5Smn7sCEtV8NHvTa5WaxgOML.jpg"
     },
     {
         "adult": false,
-        "gender": 1,
-        "id": 1066880,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/unK7hXabRmLNnXzS5Z2dcVag8pj.jpg",
-                "genre_ids": [
-                    80,
-                    18
-                ],
-                "id": 301901,
-                "media_type": "movie",
-                "original_language": "es",
-                "original_title": "Perro callejero",
-                "overview": "An abandoned child steals to survive and has problems when he decides to steal from the priest who helps him.",
-                "poster_path": "/4ajlvTxa3HsXQG0auGh7LJFbm3D.jpg",
-                "release_date": "1980-02-28",
-                "title": "Perro callejero",
-                "video": false,
-                "vote_average": 8.2,
-                "vote_count": 33
-            },
-            {
-                "adult": false,
-                "genre_ids": [
-                    80,
-                    18
-                ],
-                "id": 301903,
-                "media_type": "movie",
-                "original_language": "es",
-                "original_title": "Perro callejero 2",
-                "overview": "",
-                "poster_path": "/yniuZOc3CWDlsePeCGxRh6kMu7A.jpg",
-                "release_date": "1981-04-30",
-                "title": "Perro callejero 2",
-                "video": false,
-                "vote_average": 8.2,
-                "vote_count": 28
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/mp12f96nP7HrXZPsN1R3r087QAY.jpg",
-                "genre_ids": [
-                    99
-                ],
-                "id": 385114,
-                "media_type": "movie",
-                "original_language": "es",
-                "original_title": "Bellas de noche",
-                "overview": "What happened to those vedettes who represented the mexican cabaret’s exotic beauty in the ‘70s and ‘80s? Four decades after the end of their roles, they tell their stories with dignity.",
-                "poster_path": "/33UYu3UcFqjU4HMFacFwxzZ4B7E.jpg",
-                "release_date": "2016-09-12",
-                "title": "Beauties of the Night",
-                "video": false,
-                "vote_average": 7.3,
-                "vote_count": 18
-            }
+        "also_known_as": [
+            "Carrie Frances Fisher ",
+            "Кэрри Фишер",
+            "Кэрри Фрэнсис Фишер",
+            "캐리 피셔"
         ],
+        "biography": "Carrie Frances Fisher (21 October 1956 - 27 December 2016) was an American actress, novelist, screenwriter, and lecturer. She is most famous for her portrayal of Princess Leia Organa in the original Star Wars trilogy, her bestselling novel Postcards from the Edge, for which she wrote the screenplay to the film of the same name, and her autobiography Wishful Drinking.",
+        "birthday": "1956-10-21",
+        "deathday": "2016-12-27",
+        "gender": 1,
+        "homepage": "https://carriefisher.com/",
+        "id": 4,
+        "imdb_id": "nm0000402",
         "known_for_department": "Acting",
-        "name": "Lyn May",
-        "popularity": 69.601,
-        "profile_path": "/zjlkdXkNNFJnemqOvkw9z9t5D8T.jpg"
+        "name": "Carrie Fisher",
+        "place_of_birth": "Beverly Hills, Los Angeles, California, USA",
+        "popularity": 4.891,
+        "profile_path": "/rfJtncHewKVnHjqpIZvjn24ESeC.jpg"
     },
     {
         "adult": false,
-        "gender": 1,
-        "id": 234352,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/cWUOv3H7YFwvKeaQhoAQTLLpo9Z.jpg",
-                "genre_ids": [
-                    80,
-                    18,
-                    35
-                ],
-                "id": 106646,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "The Wolf of Wall Street",
-                "overview": "A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.",
-                "poster_path": "/pWHf4khOloNVfCxscsXFj3jj6gP.jpg",
-                "release_date": "2013-12-25",
-                "title": "The Wolf of Wall Street",
-                "video": false,
-                "vote_average": 8,
-                "vote_count": 18071
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/sMRwI5trKI6qhxYcjPgGghmPBef.jpg",
-                "genre_ids": [
-                    28,
-                    12,
-                    14
-                ],
-                "id": 297761,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Suicide Squad",
-                "overview": "From DC Comics comes the Suicide Squad, an antihero team of incarcerated supervillains who act as deniable assets for the United States government, undertaking high-risk black ops missions in exchange for commuted prison sentences.",
-                "poster_path": "/xFw9RXKZDvevAGocgBK0zteto4U.jpg",
-                "release_date": "2016-08-03",
-                "title": "Suicide Squad",
-                "video": false,
-                "vote_average": 5.9,
-                "vote_count": 17707
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/nGJpQCAn2NKeDoEflLI5DIvsqoQ.jpg",
-                "genre_ids": [
-                    35,
-                    18,
-                    53
-                ],
-                "id": 466272,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Once Upon a Time… in Hollywood",
-                "overview": "Los Angeles, 1969. TV star Rick Dalton, a struggling actor specializing in westerns, and stuntman Cliff Booth, his best friend, try to survive in a constantly changing movie industry. Dalton is the neighbor of the young and promising actress and model Sharon Tate, who has just married the prestigious Polish director Roman Polanski…",
-                "poster_path": "/8j58iEBw9pOXFD2L0nt0ZXeHviB.jpg",
-                "release_date": "2019-07-24",
-                "title": "Once Upon a Time… in Hollywood",
-                "video": false,
-                "vote_average": 7.5,
-                "vote_count": 9083
-            }
+        "also_known_as": [
+            "Марго Роббі",
+            "Марго Робби",
+            "มาร์โก ร็อบบี",
+            "瑪歌·羅比",
+            "마고 로비",
+            "مارجوت روبي",
+            "マーゴット・ロビー",
+            "Марго Роби",
+            "Margot Elise Robbie",
+            "Μάργκοτ Ελίς Ρόμπι",
+            "Μάργκοτ Ρόμπι",
+            "玛格特·罗比",
+            "Марґо Роббі"
         ],
+        "biography": "Margot Elise Robbie (born 2 July 1990) is an Australian actress and producer. She has received nominations for two Academy Awards and five BAFTA Awards. In 2017, Time magazine named her one of the 100 most influential people in the world, and in 2019, she was ranked among the world's highest-paid actresses.\n\nRobbie studied drama at Somerset College and began her career in Australian independent films in the late 2000s, before working in the soap opera Neighbours (2008–2011). After moving to America, she starred in the ABC drama series Pan Am (2011–2012) and had her breakthrough role in Martin Scorsese's black comedy film The Wolf of Wall Street (2013). Robbie's profile continued to grow with starring roles as a grifter in Focus (2015), Jane Porter in The Legend of Tarzan (2016), and Harley Quinn in the DC Extended Universe, beginning with Suicide Squad (2016).\n\nRobbie garnered critical acclaim and nominations for the BAFTA Award and Academy Award for Best Actress for portraying the disgraced figure skater Tonya Harding in the biopic I, Tonya (2017). This acclaim continued for her roles as Queen Elizabeth I in the period drama Mary Queen of Scots (2018), Sharon Tate in the comedy-drama Once Upon a Time in Hollywood (2019), and a fictional Fox News employee in the drama Bombshell (2019). She received BAFTA Award nominations for all three and a nomination for the Academy Award for Best Supporting Actress for the lattermost.\n\nRobbie is married to the filmmaker Tom Ackerley. They are among the founders of the production company LuckyChap Entertainment, under which she has produced some of her own films, as well as the television series Dollface (2019–present).",
+        "birthday": "1990-07-02",
+        "deathday": null,
+        "gender": 1,
+        "homepage": null,
+        "id": 234352,
+        "imdb_id": "nm3053338",
         "known_for_department": "Acting",
         "name": "Margot Robbie",
-        "popularity": 60.04,
+        "place_of_birth": "Dalby, Queensland, Australia",
+        "popularity": 46.628,
         "profile_path": "/euDPyqLnuwaWMHajcU3oZ9uZezR.jpg"
     },
     {
         "adult": false,
-        "gender": 2,
-        "id": 10859,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/en971MEXui9diirXlogOrPKmsEn.jpg",
-                "genre_ids": [
-                    28,
-                    12,
-                    35
-                ],
-                "id": 293660,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Deadpool",
-                "overview": "Deadpool tells the origin story of former Special Forces operative turned mercenary Wade Wilson, who after being subjected to a rogue experiment that leaves him with accelerated healing powers, adopts the alter ego Deadpool. Armed with his new abilities and a dark, twisted sense of humor, Deadpool hunts down the man who nearly destroyed his life.",
-                "poster_path": "/3E53WEZJqP6aM84D8CckXx4pIHw.jpg",
-                "release_date": "2016-02-09",
-                "title": "Deadpool",
-                "video": false,
-                "vote_average": 7.6,
-                "vote_count": 25299
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/3P52oz9HPQWxcwHOwxtyrVV1LKi.jpg",
-                "genre_ids": [
-                    28,
-                    35,
-                    12
-                ],
-                "id": 383498,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Deadpool 2",
-                "overview": "Wisecracking mercenary Deadpool battles the evil and powerful Cable and other bad guys to save a boy's life.",
-                "poster_path": "/to0spRl1CMDvyUbOnbb4fTk3VAd.jpg",
-                "release_date": "2018-05-10",
-                "title": "Deadpool 2",
-                "video": false,
-                "vote_average": 7.5,
-                "vote_count": 13550
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/nEcEy7iVOh04dzZWP2e6AcwpLvI.jpg",
-                "genre_ids": [
-                    35,
-                    14
-                ],
-                "id": 72105,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Ted",
-                "overview": "John Bennett, a man whose childhood wish of bringing his teddy bear to life came true, now must decide between keeping the relationship with the bear or his girlfriend, Lori.",
-                "poster_path": "/2ZetTSYM8ATcrxh4Otge99GJRTz.jpg",
-                "release_date": "2012-06-29",
-                "title": "Ted",
-                "video": false,
-                "vote_average": 6.4,
-                "vote_count": 9938
-            }
+        "also_known_as": [
+            "Райан Рейнольдс",
+            "رايان رينولدز",
+            "라이언 레이놀즈",
+            "ライアン・レイノルズ",
+            "ไรอัน เรย์โนลส์",
+            "萊恩·雷諾斯",
+            "Раян Рейнольдс",
+            "Ryan Rodney Reynolds",
+            "Ράιαν Ρέινολντς",
+            "瑞安·雷诺兹",
+            "Champ Nightengale"
         ],
+        "biography": "Ryan Rodney Reynolds (born 23 October 1976) is a Canadian-American actor, film producer, and entrepreneur. He began his career starring in the Canadian teen soap opera Hillside (1991–1993) and had minor roles before landing the lead role on the sitcom Two Guys and a Girl between 1998 and 2001.\n\nReynolds then starred in a range of films, including Van Wilder (2002), Waiting... (2005), and The Proposal (2009). He also performed in dramatic roles in Buried (2010), Woman in Gold (2015), and Life (2017), starred in action films such as Blade: Trinity (2004), Deadpool (2016), and 6 Underground (2019) and provided voice acting in the animated features The Croods (2013), Turbo (2013), and Pokemon: Detective Pikachu (2019).\n\nReynolds's biggest commercial success came with the superhero films Deadpool (2016) and Deadpool 2 (2018), in which he played the title character. The former set numerous records at the time of its release for an R-rated comedy and his performance earned him nominations at the Critics' Choice Movie Awards and the Golden Globe Awards.\n\nDescription above is from the Wikipedia article Ryan Reynolds, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+        "birthday": "1976-10-23",
+        "deathday": null,
+        "gender": 2,
+        "homepage": null,
+        "id": 10859,
+        "imdb_id": "nm0005351",
         "known_for_department": "Acting",
         "name": "Ryan Reynolds",
-        "popularity": 45.815,
+        "place_of_birth": "Vancouver, British Columbia, Canada",
+        "popularity": 56.776,
         "profile_path": "/4SYTH5FdB0dAORV98Nwg3llgVnY.jpg"
     },
     {
         "adult": false,
-        "gender": 1,
-        "id": 1039305,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/sbtqmaprl6fzhPLaOrFWYJ8ZDli.jpg",
-                "genre_ids": [
-                    16,
-                    18
-                ],
-                "id": 242828,
-                "media_type": "movie",
-                "original_language": "ja",
-                "original_title": "思い出のマーニー",
-                "overview": "Upon being sent to live with relatives in the countryside due to an illness, an emotionally distant adolescent girl becomes obsessed with an abandoned mansion and infatuated with a girl who lives there - a girl who may or may not be real.",
-                "poster_path": "/vug1dvDI1tSa60Z8qjCuUE7ntkO.jpg",
-                "release_date": "2014-07-19",
-                "title": "When Marnie Was There",
-                "video": false,
-                "vote_average": 8,
-                "vote_count": 1228
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/hnVxxTK1IC9VVivyqf1v74P0Ent.jpg",
-                "genre_ids": [
-                    28,
-                    878,
-                    14,
-                    27
-                ],
-                "id": 276624,
-                "media_type": "movie",
-                "original_language": "ja",
-                "original_title": "アイアムアヒーロー",
-                "overview": "Hideo Suzuki is a 35-year-old mangaka assistant, whose life seem to be stuck around his exhausting but low-paying job, unfulfilled dreams, strange hallucinations and unsatisfying relationships. He sees himself as a supporting character in his own life, has low self-esteem, resulting in frustration. One day, the world as Hideo knows it is shattered by the presence of a disease that turns people into homicidal maniacs, whose first instinct is to attack and devour the nearest human.",
-                "poster_path": "/4RnmHtCLtbBHD9jagVlcSzJTWX6.jpg",
-                "release_date": "2016-04-23",
-                "title": "I Am a Hero",
-                "video": false,
-                "vote_average": 7.3,
-                "vote_count": 217
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/nR6tcBslmfpC6tHW6GPs7fcHV8g.jpg",
-                "genre_ids": [
-                    28,
-                    12,
-                    18
-                ],
-                "id": 602063,
-                "media_type": "movie",
-                "original_language": "ja",
-                "original_title": "るろうに剣心 最終章 The Final",
-                "overview": "In 1879, Kenshin and his allies face their strongest enemy yet: his former brother-in-law Enishi Yukishiro and his minions, who've vowed their revenge.",
-                "poster_path": "/7bbEASVf9XWtfxWiuWUMY3uyhTb.jpg",
-                "release_date": "2021-04-23",
-                "title": "Rurouni Kenshin: The Final",
-                "video": false,
-                "vote_average": 7.8,
-                "vote_count": 214
-            }
+        "also_known_as": [
+            "有村架純",
+            "ありむら かすみ",
+            "아리무라 카스미"
         ],
+        "biography": "Kasumi Arimura (有村 架純 Arimura Kasumi, born February 13, 1993) is a Japanese actress.She is known for playing the young Haruko Amano in Amachan (2013), and the lead role in Strobe Edge (2015) and Flying Colors (2015).\n\nDescription above from the Wikipedia article Kasumi Arimura, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+        "birthday": "1993-02-13",
+        "deathday": null,
+        "gender": 1,
+        "homepage": "http://www.flamme.co.jp/KasumiArimura",
+        "id": 1039305,
+        "imdb_id": "nm4134328",
         "known_for_department": "Acting",
         "name": "Kasumi Arimura",
-        "popularity": 39.272,
+        "place_of_birth": "Itami, Hyogo Prefecture, Japan",
+        "popularity": 39.301,
         "profile_path": "/irMWWtJQu3kWEOB9JUflKBuhh8H.jpg"
     },
     {
         "adult": false,
+        "also_known_as": [],
+        "biography": "Daniela Melchior was born on November 1, 1996. She is an actress, known for Parque Mayer (2018), The Suicide Squad (2021) and Massa Fresca (2016).",
+        "birthday": "1996-11-01",
+        "deathday": null,
         "gender": 1,
+        "homepage": null,
         "id": 1784612,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/rAgsOIhqRS6tUthmHoqnqh9PIAE.jpg",
-                "genre_ids": [
-                    28,
-                    12,
-                    14
-                ],
-                "id": 436969,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "The Suicide Squad",
-                "overview": "Supervillains Harley Quinn, Bloodsport, Peacemaker and a collection of nutty cons at Belle Reve prison join the super-secret, super-shady Task Force X as they are dropped off at the remote, enemy-infused island of Corto Maltese.",
-                "poster_path": "/kb4s0ML0iVZlG6wAKbbs9NAm6X.jpg",
-                "release_date": "2021-07-28",
-                "title": "The Suicide Squad",
-                "video": false,
-                "vote_average": 8.1,
-                "vote_count": 1809
-            },
-            {
-                "backdrop_path": "/lQFzeBxQBSyHwtaGcsOd9eKnELr.jpg",
-                "first_air_date": "2017-09-24",
-                "genre_ids": [
-                    18,
-                    10766
-                ],
-                "id": 73951,
-                "media_type": "tv",
-                "name": "A Herdeira",
-                "origin_country": [
-                    "PT"
-                ],
-                "original_language": "pt",
-                "original_name": "A Herdeira",
-                "overview": "The story of a girl created by the gypsy community but who in fact is heiress of a great empire. The woman who robbed her in the past now sees her future threatened. The return of the Heiress unleashes struggles of power and affections and a love to withstand anything.",
-                "poster_path": "/Acf1EEhOZwDNB0IuuICwyIDfYqF.jpg",
-                "vote_average": 3.9,
-                "vote_count": 40
-            },
-            {
-                "backdrop_path": null,
-                "first_air_date": "2017-01-08",
-                "genre_ids": [
-                    18,
-                    10766
-                ],
-                "id": 69692,
-                "media_type": "tv",
-                "name": "Ouro Verde",
-                "origin_country": [
-                    "PT"
-                ],
-                "original_language": "pt",
-                "original_name": "Ouro Verde",
-                "overview": "Zé Maria Magalhães is an innocent young man who, suddenly, sees his dreams and family destroyed by a man's greed: Miguel Ferreira da Fonseca, a powerful banker. For 15 years, Zé Maria is forced to remain hidden, in a life of lies, in another country, imprisoned by the memories of the past, having to assume a new identity. Today, he is a great farmer, owner of the Ouro Verde empire, known as Jorge Monforte, and has become one of the richest men in Brazil. The course of time only fueled his desire for revenge, making him lose the sense of right and wrong and the ability to love. Fifteen years later, he returns to Portugal, ready to avenge the past and destroy Miguel Ferreira da Fonseca.",
-                "poster_path": "/2hJN6OVo8FL0C9mXl3DJ3uM96Sj.jpg",
-                "vote_average": 4.6,
-                "vote_count": 13
-            }
-        ],
+        "imdb_id": "nm6403016",
         "known_for_department": "Acting",
         "name": "Daniela Melchior",
-        "popularity": 37.729,
-        "profile_path": "/ieINP7YlragZ999aU0zfuve1lM2.jpg"
+        "place_of_birth": "Lisbon, Portugal",
+        "popularity": 25.44,
+        "profile_path": "/iLO8qrSldSTC1omutFiO9oyIz6m.jpg"
     },
     {
         "adult": false,
-        "gender": 1,
-        "id": 109513,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/mMoG4nPSDupXIXOwVvpexZY2W0N.jpg",
-                "genre_ids": [
-                    28,
-                    18,
-                    53
-                ],
-                "id": 254128,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "San Andreas",
-                "overview": "In the aftermath of a massive earthquake in California, a rescue-chopper pilot makes a dangerous journey across the state in order to rescue his estranged daughter.",
-                "poster_path": "/2Gfjn962aaFSD6eST6QU3oLDZTo.jpg",
-                "release_date": "2015-05-27",
-                "title": "San Andreas",
-                "video": false,
-                "vote_average": 6.2,
-                "vote_count": 6724
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/6QmX2BDVr1hIOIPHqnxvp1C1ZZp.jpg",
-                "genre_ids": [
-                    35,
-                    28,
-                    80
-                ],
-                "id": 339846,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Baywatch",
-                "overview": "Devoted lifeguard Mitch Buchannon butts heads with a brash new recruit. Together, they uncover a local criminal plot that threatens the future of the Bay.",
-                "poster_path": "/6HE4xd8zloDqmjMZuhUCCw2UcY1.jpg",
-                "release_date": "2017-05-12",
-                "title": "Baywatch",
-                "video": false,
-                "vote_average": 6.1,
-                "vote_count": 6523
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/sEyNWq9985lyUrwayWnvicT4FHA.jpg",
-                "genre_ids": [
-                    12,
-                    14,
-                    10751
-                ],
-                "id": 32657,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Percy Jackson & the Olympians: The Lightning Thief",
-                "overview": "Accident prone teenager, Percy discovers he's actually a demi-God, the son of Poseidon, and he is needed when Zeus' lightning is stolen. Percy must master his new found skills in order to prevent a war between the Gods that could devastate the entire world.",
-                "poster_path": "/nmyrUTjmvZ3OQYZJrUKAoiBfMq5.jpg",
-                "release_date": "2010-02-01",
-                "title": "Percy Jackson & the Olympians: The Lightning Thief",
-                "video": false,
-                "vote_average": 6.2,
-                "vote_count": 5882
-            }
+        "also_known_as": [
+            "Alex Daddario",
+            "Alexandra Daddorio ",
+            "Александра Даддарио",
+            "알렉산드라 다드다리오",
+            "Alexandra Anna Daddario",
+            "Αλεξάντρα Άννα Νταντάριο",
+            "Αλεξάντρα Νταντάριο",
+            "Александра Даддаріо",
+            "ألكسندرا داداريو",
+            "അലക്സാണ്ട്ര ദദ്ദാറിയോ",
+            "亚历珊德拉·达达里奥"
         ],
+        "biography": "Alexandra Anna Daddario is an American actress. She is known for playing Annabeth Chase in the Percy Jackson film series, Blake Gaines in San Andreas (2015), Summer Quinn in Baywatch (2017), Emma Corrigan in Can You Keep a Secret?, and Alexis Butler in We Summon the Darkness (both 2019). She has also starred in the films Texas Chainsaw 3D and Hall Pass and has guest starred in television series such as White Collar, It's Always Sunny in Philadelphia, True Detective, New Girl, and American Horror Story: Hotel.",
+        "birthday": "1986-03-16",
+        "deathday": null,
+        "gender": 1,
+        "homepage": null,
+        "id": 109513,
+        "imdb_id": "nm1275259",
         "known_for_department": "Acting",
         "name": "Alexandra Daddario",
-        "popularity": 35.761,
-        "profile_path": "/lh5zibQXYH1MNqkuX8TmxyNYHhK.jpg"
+        "place_of_birth": "New York City, New York, USA",
+        "popularity": 38.183,
+        "profile_path": "/netqGkeTEPtyMBdpMWophvK3y7N.jpg"
     },
     {
         "adult": false,
-        "gender": 2,
-        "id": 13240,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/9RuC3UD6mNZ0p1J6RbfJDUkQ03i.jpg",
-                "genre_ids": [
-                    18,
-                    53,
-                    80
-                ],
-                "id": 1422,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "The Departed",
-                "overview": "To take down South Boston's Irish Mafia, the police send in one of their own to infiltrate the underworld, not realizing the syndicate has done likewise. While an undercover cop curries favor with the mob kingpin, a career criminal rises through the police ranks. But both sides soon discover there's a mole among them.",
-                "poster_path": "/kWWAt2FMRbqLFFy8o5R4Zr8cMAb.jpg",
-                "release_date": "2006-10-05",
-                "title": "The Departed",
-                "video": false,
-                "vote_average": 8.2,
-                "vote_count": 11416
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/nEcEy7iVOh04dzZWP2e6AcwpLvI.jpg",
-                "genre_ids": [
-                    35,
-                    14
-                ],
-                "id": 72105,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Ted",
-                "overview": "John Bennett, a man whose childhood wish of bringing his teddy bear to life came true, now must decide between keeping the relationship with the bear or his girlfriend, Lori.",
-                "poster_path": "/2ZetTSYM8ATcrxh4Otge99GJRTz.jpg",
-                "release_date": "2012-06-29",
-                "title": "Ted",
-                "video": false,
-                "vote_average": 6.4,
-                "vote_count": 9938
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/alItugxBbjNC10ezLSisplhSKJ.jpg",
-                "genre_ids": [
-                    878,
-                    28,
-                    12
-                ],
-                "id": 91314,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Transformers: Age of Extinction",
-                "overview": "As humanity picks up the pieces, following the conclusion of \"Transformers: Dark of the Moon,\" Autobots and Decepticons have all but vanished from the face of the planet. However, a group of powerful, ingenious businessman and scientists attempt to learn from past Transformer incursions and push the boundaries of technology beyond what they can control - all while an ancient, powerful Transformer menace sets Earth in his cross-hairs.",
-                "poster_path": "/jyzrfx2WaeY60kYZpPYepSjGz4S.jpg",
-                "release_date": "2014-06-25",
-                "title": "Transformers: Age of Extinction",
-                "video": false,
-                "vote_average": 5.9,
-                "vote_count": 6251
-            }
+        "also_known_as": [
+            "Marky Mark",
+            "馬克·華伯格",
+            "มาร์ก วาห์ลเบิร์ก",
+            "Марк Уолберг",
+            "マーク・ウォールバーグ",
+            "마크 월버그",
+            "مارك والبيرغ",
+            "马克·沃尔伯格",
+            "Mark Robert Michael Wahlberg",
+            "Μαρκ Γουόλμπεργκ"
         ],
+        "biography": "Mark Robert Michael Wahlberg (born June 5, 1971) is an American actor, producer, restaurateur and former rapper. He is also known by his former stage name Marky Mark from his career with the group Marky Mark and the Funky Bunch, with whom he released the albums Music for the People (1991) and You Gotta Believe (1992).\n\nWahlberg transitioned from music to acting, with his screen debut in Renaissance Man (1994) and his first starring role in Fear (1996). He received critical praise for his performance as porn actor Dirk Diggler in Boogie Nights. In the early 2000s, he ventured into big budget action-oriented movies, such as The Perfect Storm (2000), Planet of the Apes (2001), and The Italian Job (2003). He was nominated for the Academy Award for Best Supporting Actor for playing a police officer in the crime drama The Departed (2006). He was nominated for the Golden Globe Award for Best Actor for the sports drama biopic The Fighter (2010), in which he starred as Micky Ward. In the 2010s, he landed successful comedy roles with The Other Guys (2010), Ted (2012), Ted 2 (2015), Daddy's Home (2015), and Daddy's Home 2 (2017). He also became the protagonist in two films in the Transformers live-action film franchise, Transformers: Age of Extinction and Transformers: The Last Knight. He was the world's highest-paid actor in 2017.\n\nWahlberg also served as executive producer of five HBO series: the comedy-drama Entourage (2004–2011), the period crime drama Boardwalk Empire (2010–2014), the comedy-dramas How to Make It in America (2010–2011) and Ballers (2015–2019), and the documentary McMillions (2020).\n\nDescription above from the Wikipedia article Mark Wahlberg, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+        "birthday": "1971-06-05",
+        "deathday": null,
+        "gender": 2,
+        "homepage": "http://www.markwahlberg.com",
+        "id": 13240,
+        "imdb_id": "nm0000242",
         "known_for_department": "Acting",
         "name": "Mark Wahlberg",
-        "popularity": 35.321,
+        "place_of_birth": "Boston, Massachusetts, USA",
+        "popularity": 54.446,
         "profile_path": "/bTEFpaWd7A6AZVWOqKKBWzKEUe8.jpg"
     },
     {
         "adult": false,
+        "also_known_as": [],
+        "biography": "Peter Benson is a Canadian actor, writer and producer for film and television, known for playing Detective Arthur Smith in Hallmark's \"Aurora Teagarden Mystery\" series. He is a graduate of the Vancouver Film School and also has an honors degree in Communications from Carleton University.",
+        "birthday": null,
+        "deathday": null,
         "gender": 2,
+        "homepage": "http://www.marriedtothebossproductions.com/thecompany.html",
         "id": 5009,
-        "known_for": [
-            {
-                "backdrop_path": "/iDbIEpCM9nhoayUDTwqFL1iVwzb.jpg",
-                "first_air_date": "2017-09-25",
-                "genre_ids": [
-                    18
-                ],
-                "id": 71712,
-                "media_type": "tv",
-                "name": "The Good Doctor",
-                "origin_country": [
-                    "US"
-                ],
-                "original_language": "en",
-                "original_name": "The Good Doctor",
-                "overview": "A young surgeon with Savant syndrome is recruited into the surgical unit of a prestigious hospital. The question will arise: can a person who doesn't have the ability to relate to people actually save their lives",
-                "poster_path": "/6tfT03sGp9k4c0J3dypjrI8TSAI.jpg",
-                "vote_average": 8.6,
-                "vote_count": 9022
-            },
-            {
-                "backdrop_path": "/nVRyd8hlg0ZLxBn9RaI7mUMQLnz.jpg",
-                "first_air_date": "2005-09-13",
-                "genre_ids": [
-                    18,
-                    9648,
-                    10765
-                ],
-                "id": 1622,
-                "media_type": "tv",
-                "name": "Supernatural",
-                "origin_country": [
-                    "US"
-                ],
-                "original_language": "en",
-                "original_name": "Supernatural",
-                "overview": "When they were boys, Sam and Dean Winchester lost their mother to a mysterious and demonic supernatural force. Subsequently, their father raised them to be soldiers. He taught them about the paranormal evil that lives in the dark corners and on the back roads of America ... and he taught them how to kill it. Now, the Winchester brothers crisscross the country in their '67 Chevy Impala, battling every kind of supernatural threat they encounter along the way. ",
-                "poster_path": "/KoYWXbnYuS3b0GyQPkbuexlVK9.jpg",
-                "vote_average": 8.2,
-                "vote_count": 5303
-            },
-            {
-                "backdrop_path": "/xSM3Ba3Nabs2p0wW8vTJP0yx3Zv.jpg",
-                "first_air_date": "2012-10-10",
-                "genre_ids": [
-                    80,
-                    18,
-                    9648,
-                    10759
-                ],
-                "id": 1412,
-                "media_type": "tv",
-                "name": "Arrow",
-                "origin_country": [
-                    "US"
-                ],
-                "original_language": "en",
-                "original_name": "Arrow",
-                "overview": "Spoiled billionaire playboy Oliver Queen is missing and presumed dead when his yacht is lost at sea. He returns five years later a changed man, determined to clean up the city as a hooded vigilante armed with a bow.",
-                "poster_path": "/gKG5QGz5Ngf8fgWpBsWtlg5L2SF.jpg",
-                "vote_average": 6.7,
-                "vote_count": 4668
-            }
-        ],
+        "imdb_id": "nm1193045",
         "known_for_department": "Acting",
         "name": "Peter Benson",
-        "popularity": 34.614,
+        "place_of_birth": "Canada ",
+        "popularity": 24.678,
         "profile_path": "/btcuZXvGZcO1AyCQXcAeWWLf0jI.jpg"
     },
     {
         "adult": false,
-        "gender": 1,
-        "id": 1245,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/nNmJRkg8wWnRmzQDe2FwKbPIsJV.jpg",
-                "genre_ids": [
-                    878,
-                    28,
-                    12
-                ],
-                "id": 24428,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "The Avengers",
-                "overview": "When an unexpected enemy emerges and threatens global safety and security, Nick Fury, director of the international peacekeeping agency known as S.H.I.E.L.D., finds himself in need of a team to pull the world back from the brink of disaster. Spanning the globe, a daring recruitment effort begins!",
-                "poster_path": "/RYMX2wcKCBAr24UyPD7xwmjaTn.jpg",
-                "release_date": "2012-04-25",
-                "title": "The Avengers",
-                "video": false,
-                "vote_average": 7.7,
-                "vote_count": 25168
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/lmZFxXgJE3vgrciwuDib0N8CfQo.jpg",
-                "genre_ids": [
-                    12,
-                    28,
-                    878
-                ],
-                "id": 299536,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Avengers: Infinity War",
-                "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
-                "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
-                "release_date": "2018-04-25",
-                "title": "Avengers: Infinity War",
-                "video": false,
-                "vote_average": 8.3,
-                "vote_count": 22409
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-                "genre_ids": [
-                    12,
-                    878,
-                    28
-                ],
-                "id": 299534,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Avengers: Endgame",
-                "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
-                "poster_path": "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-                "release_date": "2019-04-24",
-                "title": "Avengers: Endgame",
-                "video": false,
-                "vote_average": 8.3,
-                "vote_count": 18797
-            }
+        "also_known_as": [
+            "Скарлетт Йоганссон",
+            "Скарлетт Йоханссон",
+            "스칼릿 조핸슨",
+            "سكارليت جوهانسون",
+            "史嘉蕾·喬韓森",
+            "สการ์เลตต์ โจแฮนส์สัน",
+            "スカーレット・ヨハンソン",
+            "斯嘉丽·约翰逊",
+            "스칼렛 요한슨",
+            "Σκάρλετ Τζοχάνσον",
+            "اسکارلت جوهانسون"
         ],
+        "biography": "Scarlett Johansson, born November 22, 1984, is an American actress, model and singer. She made her film debut in North (1994) and was later nominated for the Independent Spirit Award for Best Female Lead for her performance in Manny & Lo (1996), garnering further acclaim and prominence with roles in The Horse Whisperer (1998) and Ghost World (2001). She shifted to adult roles with her performances in Girl with a Pearl Earring (2003) and Sofia Coppola's Lost in Translation (2003), for which she won a BAFTA award for Best Actress in a Leading Role; both films earned her Golden Globe Award nominations as well.\n\nA role in A Love Song for Bobby Long (2004) earned Johansson her third Golden Globe for Best Actress nomination. Johansson garnered another Golden Globe nomination for Best Supporting Actress with her role in Woody Allen's Match Point (2005). She has played the Marvel comic book character Black Widow/Natasha Romanoff in Iron Man 2 (2010), The Avengers (2012), and Captain America: The Winter Soldier (2014), Avengers: Age of Ultron (2015), Captain America: Civil War (2016), Avengers: Infinity War (2018), Avengers: Endgame (2019), and Black Widow (2020). The 2010 Broadway revival of Arthur Miller's A View From the Bridge won Johansson the Tony Award for Best Performance by a Featured Actress in a Play. As a singer, Johansson has released two albums, Anywhere I Lay My Head and Break Up.\n\nJohansson was nominated for two Academy Awards in 2020 for her work in Marriage Story (2019), and Jojo Rabbit (2019).  Johansson was born in New York City. Her father, Karsten Johansson, is a Danish-born architect, and her paternal grandfather, Ejner Johansson, was a screenwriter and director. Her mother, Melanie Sloan, a producer, comes from an Ashkenazi Jewish family from the Bronx. Johansson has an older sister, Vanessa, who is an actress; an older brother, Adrian; a twin brother, Hunter (who appeared in the film Manny & Lo with Scarlett); and a half-brother, Christian, from her father's re-marriage.",
+        "birthday": "1984-11-22",
+        "deathday": null,
+        "gender": 1,
+        "homepage": null,
+        "id": 1245,
+        "imdb_id": "nm0424060",
         "known_for_department": "Acting",
         "name": "Scarlett Johansson",
-        "popularity": 34.181,
+        "place_of_birth": "New York City, New York, USA",
+        "popularity": 44.587,
         "profile_path": "/6NsMbJXRlDZuDzatN2akFdGuTvx.jpg"
     },
     {
         "adult": false,
-        "gender": 1,
-        "id": 1522703,
-        "known_for": [
-            {
-                "backdrop_path": "/sVmEr2z1kD2H5lhi4G9qQoVLLsD.jpg",
-                "first_air_date": "2020-07-08",
-                "genre_ids": [
-                    18,
-                    35
-                ],
-                "id": 104877,
-                "media_type": "tv",
-                "name": "Love Is In The Air",
-                "origin_country": [
-                    "TR"
-                ],
-                "original_language": "tr",
-                "original_name": "Sen Çal Kapımı",
-                "overview": "Eda, who ties all her hopes to her education, confronts Serkan Bolat, who cuts off her international education scholarship and leaves her with high school diploma. Serkan Bolat offers Eda to give her scholarship back if she pretends to be his fiance for two months. Although Eda rejects the offer of this man as she hates him, she has to accept it when the conditions change. While pretending to be engaged, Serkan and Eda begin to experience a passionate, challenging relationship that will make them forget all they know right. Because love is difficult. And that's why it's amazing.",
-                "poster_path": "/nzBenFJ2D2MCWTwTt2uc4BGWLtA.jpg",
-                "vote_average": 8.2,
-                "vote_count": 1035
-            },
-            {
-                "backdrop_path": "/vKV0XxFTWJDdzL39Dddp4uLri0A.jpg",
-                "first_air_date": "2015-06-18",
-                "genre_ids": [
-                    18
-                ],
-                "id": 64164,
-                "media_type": "tv",
-                "name": "Sun's Daughters",
-                "origin_country": [
-                    "TR"
-                ],
-                "original_language": "tr",
-                "original_name": "Güneşin Kızları",
-                "overview": "A teacher and a mother of three teenage daughters , gunes agrees to move from her home city Izmir to Istanbul to be with mysterious wealthy man who has fallen for her. Gunesin kizlari follows the never ending drama of Güneş and her daughters they face the events of their newly transformed lives.",
-                "poster_path": "/kVJbUlcWGyLp0H1xXLo1OicmU8x.jpg",
-                "vote_average": 7.7,
-                "vote_count": 53
-            },
-            {
-                "backdrop_path": "/eOLGKXZZrjJ8bvZvC5eGzQPlyGU.jpg",
-                "first_air_date": "2016-06-15",
-                "genre_ids": [
-                    35,
-                    18
-                ],
-                "id": 67570,
-                "media_type": "tv",
-                "name": "Ask Laftan Anlamaz",
-                "origin_country": [
-                    "TR"
-                ],
-                "original_language": "tr",
-                "original_name": "Ask Laftan Anlamaz",
-                "overview": "Hayat is a country girl with strict parents. She is in a love hate relationship with her boss Murat. Hayat is full of secrets that can ruin her career and relationship.",
-                "poster_path": "/tnyM86EpqVRTHZKQenaUrbsTAGG.jpg",
-                "vote_average": 8.8,
-                "vote_count": 8
-            }
+        "also_known_as": [
+            "汉黛·埃塞尔"
         ],
+        "biography": "Hande Erçel (born 24 November 1993) is a Turkish television actress and model. She is known for her lead role in Aşk Laftan Anlamaz (2016–2017) as Hayat Uzun.",
+        "birthday": "1993-11-24",
+        "deathday": null,
+        "gender": 1,
+        "homepage": null,
+        "id": 1522703,
+        "imdb_id": "nm7495853",
         "known_for_department": "Acting",
         "name": "Hande Erçel",
-        "popularity": 33.271,
+        "place_of_birth": "Bandirma, Balikesir, Turkey",
+        "popularity": 44.015,
         "profile_path": "/heZOn03SAJkwbmTAdk7IXA5yMTV.jpg"
     },
     {
         "adult": false,
-        "gender": 2,
-        "id": 18918,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/zJDMuXQDraHjtF53wikmyBQIcYe.jpg",
-                "genre_ids": [
-                    12,
-                    28,
-                    35,
-                    14
-                ],
-                "id": 353486,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Jumanji: Welcome to the Jungle",
-                "overview": "The tables are turned as four teenagers are sucked into Jumanji's world - pitted against rhinos, black mambas and an endless variety of jungle traps and puzzles. To survive, they'll play as characters from the game.",
-                "poster_path": "/pSgXKPU5h6U89ipF7HBYajvYt7j.jpg",
-                "release_date": "2017-12-09",
-                "title": "Jumanji: Welcome to the Jungle",
-                "video": false,
-                "vote_average": 6.8,
-                "vote_count": 10903
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/oWU6dgu3RgdSZElkhbZuoPtkWAJ.jpg",
-                "genre_ids": [
-                    12,
-                    35,
-                    10751,
-                    16
-                ],
-                "id": 277834,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Moana",
-                "overview": "In Ancient Polynesia, when a terrible curse incurred by Maui reaches an impetuous Chieftain's daughter's island, she answers the Ocean's call to seek out the demigod to set things right.",
-                "poster_path": "/4JeejGugONWpJkbnvL12hVoYEDa.jpg",
-                "release_date": "2016-11-23",
-                "title": "Moana",
-                "video": false,
-                "vote_average": 7.6,
-                "vote_count": 9702
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/mRfI3y2oAd7ejur2di09xC9niqp.jpg",
-                "genre_ids": [
-                    28,
-                    53,
-                    80
-                ],
-                "id": 82992,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Fast & Furious 6",
-                "overview": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.",
-                "poster_path": "/n31VRDodbaZxkrZmmzyYSFNVpW5.jpg",
-                "release_date": "2013-05-21",
-                "title": "Fast & Furious 6",
-                "video": false,
-                "vote_average": 6.8,
-                "vote_count": 8818
-            }
+        "also_known_as": [
+            "The Rock",
+            "Rocky Maivia",
+            "The Brahma Bull",
+            "The Corporate Champion",
+            "Двейн Джонсон",
+            "Скеля",
+            "Big Bull",
+            "드웨인 존슨",
+            "Flex Kavana",
+            " The Rock 1",
+            "Dwayne Douglas Johnson",
+            "Ντουέιν Ντάγκλας Τζόνσον",
+            "Ντουέιν Τζόνσον",
+            "道恩·强森",
+            "La Roca",
+            "Dwayne ‘The Rock’ Johnson",
+            "دوين جونسون",
+            "الصخرة",
+            "巨石強森",
+            "ഡ്വെയ്ൻ ജോൺസൺ",
+            "The Peoples Champion",
+            "The Great One",
+            "Скала"
         ],
+        "biography": "An American and Canadian actor, producer and semi-retired professional wrestler, signed with WWE.  Johnson is half-Black and half-Samoan. His father, Rocky Johnson, is a Black Canadian, from Nova Scotia, and part of the first Black tag team champions in WWE history back when it was known as the WWF along with Tony Atlas. His mother is Samoan and the daughter of Peter Maivia, who was also a pro wrestler. Maivia's wife, Lia Maivia, was one of wrestling's few female promoters, taking over Polynesian Pacific Pro Wrestling after her husband's death in 1982, until 1988. Through his mother, he is considered a non-blood relative of the Anoa'i wrestling family. On March 29, 2008, The Rock inducted his father and his grandfather into the WWE Hall of Fame.\n\nAs of 2014, Johnson has a home in Southwest Ranches, Florida as well as Los Angeles, California. He also owns a farm in Virginia. In 2009, Johnson gained citizenship in Canada in honor of his father's background. Though Johnson was previously registered as a Republican, he voted for Barack Obama in the 2008 and 2012 United States presidential elections and is now an independent voter. He stated he did not vote in the 2016 U.S. election.\n\nIn recognition of his service to the Samoan people, and because he is a descendant of Samoan chiefs, Johnson had the noble title of Seiuli bestowed upon him by Malietoa Tanumafili II during his visit there in July 2004. He received a partial Samoan pe'a tattoo on his left side in 2003,and, in 2017, had the small \"Brahma bull\" tattoo on his right arm covered with a larger half-sleeve tattoo of a bull's skull.\n\nJohnson married Dany Garcia on May 3, 1997. Their only child together, a daughter named Simone, was born in August 2001. On June 1, 2007, they announced they were splitting up amicably. Johnson then began dating Lauren Hashian, daughter of Boston drummer Sib Hashian. They first met in 2006 while Johnson was filming The Game Plan. Their first child together, a daughter, was born in December 2015. Their second child, another daughter, was born in April 2018.\n\nJohnson attended the 2000 Democratic National Convention as part of WWE's non-partisan \"Smackdown Your Vote\" campaign, which aimed to influence young people to vote. He also had a speaking role at the 2000 Republican National Convention that same year.\n\nIn 2006, Johnson founded the Dwayne Johnson Rock Foundation, a charity working with at-risk and terminally ill children. On October 2, 2007, he and his ex-wife donated $1 million to the University of Miami to support the renovation of its football facilities; it was noted as the largest donation ever given to the university's athletics department by former students. The University of Miami renamed the Hurricanes' locker room in Johnson's honor. In 2015, Johnson donated $1,500 to a GoFundMe to pay for an abandoned dog's surgery. In 2017, he donated $25,000 to Hurricane Harvey relief efforts. In 2018, Johnson donated a gym to a military base in Oahu, Hawaii. After the 2018 Hawaii floods, he worked with Malama Kauai, a nonprofit organization, to help repair damages caused by the floods.",
+        "birthday": "1972-05-02",
+        "deathday": null,
+        "gender": 2,
+        "homepage": "https://www.wwe.com/superstars/the-rock",
+        "id": 18918,
+        "imdb_id": "nm0425005",
         "known_for_department": "Acting",
         "name": "Dwayne Johnson",
-        "popularity": 32.062,
+        "place_of_birth": "Hayward, California, USA",
+        "popularity": 39.655,
         "profile_path": "/cgoy7t5Ve075naBPcewZrc08qGw.jpg"
     },
     {
         "adult": false,
-        "gender": 1,
-        "id": 5081,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/auZIuHEUec5tBTns3tCRXfayxZq.jpg",
-                "genre_ids": [
-                    28,
-                    878
-                ],
-                "id": 137113,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Edge of Tomorrow",
-                "overview": "Major Bill Cage is an officer who has never seen a day of combat when he is unceremoniously demoted and dropped into combat. Cage is killed within minutes, managing to take an alpha alien down with him. He awakens back at the beginning of the same day and is forced to fight and die again... and again - as physical contact with the alien has thrown him into a time loop.",
-                "poster_path": "/uUHvlkLavotfGsNtosDy8ShsIYF.jpg",
-                "release_date": "2014-05-27",
-                "title": "Edge of Tomorrow",
-                "video": false,
-                "vote_average": 7.6,
-                "vote_count": 10844
-            },
-            {
-                "adult": false,
-                "genre_ids": [
-                    27,
-                    18,
-                    878
-                ],
-                "id": 447332,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "A Quiet Place",
-                "overview": "A family is forced to live in silence while hiding from creatures that hunt by sound.",
-                "poster_path": "/nAU74GmpUk7t5iklEp3bufwDq4n.jpg",
-                "release_date": "2018-04-03",
-                "title": "A Quiet Place",
-                "video": false,
-                "vote_average": 7.4,
-                "vote_count": 10505
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/3tWw50B1xXlCnJ9A7NX4nNzZF4j.jpg",
-                "genre_ids": [
-                    35,
-                    18,
-                    10749
-                ],
-                "id": 350,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "The Devil Wears Prada",
-                "overview": "Andy moves to New York to work in the fashion industry. Her boss is extremely demanding, cruel and won't let her succeed if she doesn't fit into the high class elegant look of their magazine.",
-                "poster_path": "/8912AsVuS7Sj915apArUFbv6F9L.jpg",
-                "release_date": "2006-06-30",
-                "title": "The Devil Wears Prada",
-                "video": false,
-                "vote_average": 7.4,
-                "vote_count": 9419
-            }
+        "also_known_as": [
+            "Emily Olivia Leah Blunt ",
+            "Эмили Блант",
+            "إيميلي بلنت",
+            "에밀리 블런트",
+            "愛蜜莉·布朗",
+            "เอมิลี บลันต์",
+            "エミリー・ブラント",
+            "艾米莉·布朗特",
+            "Έμιλι Μπλαντ"
         ],
+        "biography": "Emily Olivia Leah Blunt (born 23 February 1983) is a British actress. Her accolades include a Golden Globe Award and a Screen Actors Guild Award, in addition to nominations for two British Academy Film Awards.\n\nEducated at Hurtwood House in Dorking, Blunt made her acting debut in a 2001 stage production of The Royal Family. She went on to appear in the television film Boudica (2003) and portrayed Queen Catherine Howard in the miniseries Henry VIII (2003). She made her feature film debut in the drama My Summer of Love (2004). Blunt's breakthrough came in 2006 with her starring roles in the television film Gideon's Daughter and the comedy-drama film The Devil Wears Prada. The former won her a Golden Globe Award for Best Supporting Actress and the latter earned her a nomination for the BAFTA Award for Best Actress in a Supporting Role.\n\nBlunt's profile continued to grow with leading roles in the period film The Young Victoria (2009), the romantic comedy Salmon Fishing in the Yemen (2011), the science fiction films The Adjustment Bureau (2011), Looper (2012), and Edge of Tomorrow (2014), and the musical films Into the Woods (2014) and Mary Poppins Returns (2018). She received critical acclaim for playing a principled FBI agent in the crime film Sicario (2015), an alcoholic in the thriller The Girl on the Train (2016), which earned her a nomination for the BAFTA Award for Best Actress in a Leading Role, and a survivalist mother in the horror film A Quiet Place (2018). For the latter, which was directed by her husband John Krasinski, she won the Screen Actors Guild Award for Best Supporting Actress.",
+        "birthday": "1983-02-23",
+        "deathday": null,
+        "gender": 1,
+        "homepage": null,
+        "id": 5081,
+        "imdb_id": "nm1289434",
         "known_for_department": "Acting",
         "name": "Emily Blunt",
-        "popularity": 31.727,
+        "place_of_birth": "Wandsworth, London, England, UK",
+        "popularity": 34.56,
         "profile_path": "/jqlqq3knztTnty5rcMg5evqZRCa.jpg"
     },
     {
         "adult": false,
-        "gender": 1,
-        "id": 3967,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/mXBDQ9n2osF0BqBjXY9JDyadyRb.jpg",
-                "genre_ids": [
-                    35,
-                    18,
-                    14
-                ],
-                "id": 9339,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Click",
-                "overview": "A married workaholic, Michael Newman doesn't have time for his wife and children, not if he's to impress his ungrateful boss and earn a well-deserved promotion. So when he meets Morty, a loopy sales clerk, he gets the answer to his prayers: a magical remote that allows him to bypass life's little distractions with increasingly hysterical results.",
-                "poster_path": "/x7rM5dwQefvpXqHKQs4TrpoRyz3.jpg",
-                "release_date": "2006-06-23",
-                "title": "Click",
-                "video": false,
-                "vote_average": 6.2,
-                "vote_count": 5457
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/j9E1pGqx2ZYnyGQYMB1JYtUxJ6u.jpg",
-                "genre_ids": [
-                    14,
-                    28,
-                    53
-                ],
-                "id": 277,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Underworld",
-                "overview": "Vampires and werewolves have waged a nocturnal war against each other for centuries. But all bets are off when a female vampire warrior named Selene, who's famous for her strength and werewolf-hunting prowess, becomes smitten with a peace-loving male werewolf, Michael, who wants to end the war.",
-                "poster_path": "/zsnQ41UZ3jo1wEeemF0eA9cAIU0.jpg",
-                "release_date": "2003-09-19",
-                "title": "Underworld",
-                "video": false,
-                "vote_average": 6.8,
-                "vote_count": 4925
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/zv1xOEQzebKyku349qDZ085FZlO.jpg",
-                "genre_ids": [
-                    10752,
-                    36,
-                    10749,
-                    18
-                ],
-                "id": 676,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Pearl Harbor",
-                "overview": "The lifelong friendship between Rafe McCawley and Danny Walker is put to the ultimate test when the two ace fighter pilots become entangled in a love triangle with beautiful Naval nurse Evelyn Johnson. But the rivalry between the friends-turned-foes is immediately put on hold when they find themselves at the center of Japan's devastating attack on Pearl Harbor on Dec. 7, 1941.",
-                "poster_path": "/ftkKVbk4sQEcekuaGJvpvXcNs32.jpg",
-                "release_date": "2001-05-21",
-                "title": "Pearl Harbor",
-                "video": false,
-                "vote_average": 6.9,
-                "vote_count": 4874
-            }
+        "also_known_as": [
+            "Kathrin Beckinsale",
+            "Кейт Бекінсейл",
+            "Кейт Бекинсэйл",
+            "케이트 베킨세일",
+            "Κέιτ Μπέκινσεϊλ",
+            "Κέιτ Μπεκινσέιλ",
+            "Kathrin Romary Beckinsale"
         ],
+        "biography": "Kathryn Bailey \"Kate\" Beckinsale (born 26 July 1973) is an English actress. Born in Finsbury Park, London, Beckinsale is the daughter of actor Richard Beckinsale, who died from a heart attack in 1979, and actress Judy Loe. She has a paternal half-sister, Samantha, who is also an actress. Her paternal grandfather was half Burmese, and she has said that she was \"very oriental-looking\" as a child.\n\nShe first gained notice, while a student at Oxford University, for making her debut in the film adaptation of Shakespeare's Much Ado About Nothing. Throughout the 1990s, she worked on both film and television, most notably by portraying the title character in the 1996 BBC television series Emma.  In 2001, Beckinsale garnered international recognition when she was cast as the romantic lead opposite Ben Affleck in her breakthrough film, Pearl Harbor (2001). Since then, she has portrayed a variety of characters in projects such as Underworld (2003), The Aviator (2004), and Van Helsing (2004). In 2008, she earned a Critic's Choice Award nomination for her performance in Nothing But the Truth.",
+        "birthday": "1973-07-26",
+        "deathday": null,
+        "gender": 1,
+        "homepage": null,
+        "id": 3967,
+        "imdb_id": "nm0000295",
         "known_for_department": "Acting",
         "name": "Kate Beckinsale",
-        "popularity": 31.38,
+        "place_of_birth": "Chiswick, London, England, UK",
+        "popularity": 30.362,
         "profile_path": "/1mdRhTJGqFwo9Xuul7XO6oXpzhb.jpg"
     },
     {
         "adult": false,
-        "gender": 2,
-        "id": 12835,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/ko4N6wWp0UYlMmsVyfIfLyRAZtP.jpg",
-                "genre_ids": [
-                    28,
-                    878,
-                    12
-                ],
-                "id": 118340,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Guardians of the Galaxy",
-                "overview": "Light years from Earth, 26 years after being abducted, Peter Quill finds himself the prime target of a manhunt after discovering an orb wanted by Ronan the Accuser.",
-                "poster_path": "/r7vmZjiyZw9rpJMQJdXpjgiCOk9.jpg",
-                "release_date": "2014-07-30",
-                "title": "Guardians of the Galaxy",
-                "video": false,
-                "vote_average": 7.9,
-                "vote_count": 22913
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/lmZFxXgJE3vgrciwuDib0N8CfQo.jpg",
-                "genre_ids": [
-                    12,
-                    28,
-                    878
-                ],
-                "id": 299536,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Avengers: Infinity War",
-                "overview": "As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.",
-                "poster_path": "/7WsyChQLEftFiDOVTGkv3hFpyyt.jpg",
-                "release_date": "2018-04-25",
-                "title": "Avengers: Infinity War",
-                "video": false,
-                "vote_average": 8.3,
-                "vote_count": 22409
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/7RyHsO4yDXtBv1zUU3mTpHeQ0d5.jpg",
-                "genre_ids": [
-                    12,
-                    878,
-                    28
-                ],
-                "id": 299534,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Avengers: Endgame",
-                "overview": "After the devastating events of Avengers: Infinity War, the universe is in ruins due to the efforts of the Mad Titan, Thanos. With the help of remaining allies, the Avengers must assemble once more in order to undo Thanos' actions and restore order to the universe once and for all, no matter what consequences may be in store.",
-                "poster_path": "/or06FN3Dka5tukK1e9sl16pB3iy.jpg",
-                "release_date": "2019-04-24",
-                "title": "Avengers: Endgame",
-                "video": false,
-                "vote_average": 8.3,
-                "vote_count": 18797
-            }
+        "also_known_as": [
+            "Mark Sinclair Vincent",
+            "Mark Vincent",
+            "Він Дізель",
+            "Вин Дизель",
+            "فان ديزل",
+            "วิน ดีเซล",
+            "ヴィン・ディーゼル",
+            "빈 디젤",
+            "馮·迪索",
+            "Βιν Ντίζελ",
+            "范·迪塞尔",
+            "വിൻ ഡീസൽ"
         ],
+        "biography": "Mark Sinclair (born 18 July 1967), known professionally as Vin Diesel, is an American actor, producer, director and screenwriter. He is best known for playing Dominic Toretto in the Fast & Furious franchise and is one of the highest-grossing actors of all time.\n\nHe began his career in 1990 but struggled to gain roles until he wrote, directed, produced, scored, and starred in the short film Multi-Facial (1995). This attracted the attention of Steven Spielberg, who was developing Saving Private Ryan (1998); Spielberg re-wrote elements of the film to allow Diesel to appear. He subsequently voiced the titular character in The Iron Giant (1999) while gaining a reputation as an action star after headlining the Fast & Furious, XXX, and The Chronicles of Riddick film franchises.\n\nDiesel voiced Groot in Guardians of the Galaxy (2014) and its sequel (2017), as well as Ralph Breaks the Internet (2018). Away from action films, he has enjoyed commercial success in a number of other genres, such as the comedy film The Pacifier (2005), while his performance in Find Me Guilty (2006) was praised. Diesel portrayed the comic book superhero Bloodshot in its 2020 film adaptation and is slated to appear in the Avatar sequels.\n\nHe founded the production company One Race Films, where he has also served as a producer or executive producer for a number of his star vehicles. Diesel also founded the record label Racetrack Records and video game developer Tigon Studios and has provided his voice and motion capture for all of Tigon's releases.\n\nFrom Wikipedia, the free encyclopedia",
+        "birthday": "1967-07-18",
+        "deathday": null,
+        "gender": 2,
+        "homepage": null,
+        "id": 12835,
+        "imdb_id": "nm0004874",
         "known_for_department": "Acting",
         "name": "Vin Diesel",
-        "popularity": 28.508,
-        "profile_path": "/7rwSXluNWZAluYMOEWBxkPmckES.jpg"
+        "place_of_birth": "Alameda County, California, USA",
+        "popularity": 40.35,
+        "profile_path": "/tEoUF0RJqHnskmBOJiDEQhyN7Ok.jpg"
     },
     {
         "adult": false,
-        "gender": 1,
-        "id": 41953,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": null,
-                "genre_ids": [
-                    18
-                ],
-                "id": 161905,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Testing the Limits",
-                "overview": "Mike and Toni are on their way to the mountains for a romantic weekend, when their car breaks down. The couple take shelter in an empty cabin, unaware that it is being used by bisexual photographer Jan who is on an erotic shoot with model Kristin. Things get more complicated when Glen, a fashion editor, arrives. Soon inhibitions (and underwear) are being freely cast aside. But the lovers' reverie is broken when Kristin's psychotic boyfriend breaks in, seeking vengeance.",
-                "poster_path": "/pnK24nc7EuYEmozCeIGXfKZdMIi.jpg",
-                "release_date": "1998-01-01",
-                "title": "Testing the Limits",
-                "video": false,
-                "vote_average": 5.1,
-                "vote_count": 11
-            },
-            {
-                "adult": false,
-                "backdrop_path": null,
-                "genre_ids": [
-                    18,
-                    10749
-                ],
-                "id": 61192,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Personals: College Girl Seeking...",
-                "overview": "Lacking experience to write her research paper on sexual behavior, a 22-year old college student responds to personal ads to broaden her erotic horizons.",
-                "poster_path": "/gf1DkZulC46i4dLbjrR2CHZUyry.jpg",
-                "release_date": "2001-04-17",
-                "title": "Personals: College Girl Seeking...",
-                "video": false,
-                "vote_average": 6.5,
-                "vote_count": 4
-            },
-            {
-                "adult": false,
-                "backdrop_path": null,
-                "genre_ids": [
-                    18,
-                    878,
-                    10749
-                ],
-                "id": 137239,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Virtual Encounters 2",
-                "overview": "A nerdish computer-type stumbles upon a virtual computer program that puts the viewer right into the experience. His roommate convinces him to use it as a sex-type program and sell folks various sexual \"experiences.\" Meanwhile, the nerd aspires to date a girl he's too shy to approach, and hopes the virtual encounter program will help him out.",
-                "poster_path": null,
-                "release_date": "1998-06-08",
-                "title": "Virtual Encounters 2",
-                "video": false,
-                "vote_average": 5.3,
-                "vote_count": 4
-            }
+        "also_known_as": [
+            "Brittany Valenta",
+            "Rachel Tiberman"
         ],
+        "biography": "",
+        "birthday": null,
+        "deathday": null,
+        "gender": 1,
+        "homepage": null,
+        "id": 41953,
+        "imdb_id": "nm0204270",
         "known_for_department": "Acting",
         "name": "Brandy Davis",
-        "popularity": 28.353,
+        "place_of_birth": null,
+        "popularity": 14.135,
         "profile_path": null
     },
     {
         "adult": false,
-        "gender": 2,
-        "id": 2524,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/ii8QGacT3MXESqBckQlyrATY0lT.jpg",
-                "genre_ids": [
-                    28,
-                    878,
-                    12
-                ],
-                "id": 27205,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Inception",
-                "overview": "Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: \"inception\", the implantation of another person's idea into a target's subconscious.",
-                "poster_path": "/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
-                "release_date": "2010-07-15",
-                "title": "Inception",
-                "video": false,
-                "vote_average": 8.3,
-                "vote_count": 29619
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/nlCHUWjY9XWbuEUQauCBgnY8ymF.jpg",
-                "genre_ids": [
-                    28,
-                    12,
-                    878
-                ],
-                "id": 76341,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Mad Max: Fury Road",
-                "overview": "An apocalyptic story set in the furthest reaches of our planet, in a stark desert landscape where humanity is broken, and most everyone is crazed fighting for the necessities of life. Within this world exist two rebels on the run who just might be able to restore order.",
-                "poster_path": "/8tZYtuWezp8JbcsvHYO0O46tFbo.jpg",
-                "release_date": "2015-05-13",
-                "title": "Mad Max: Fury Road",
-                "video": false,
-                "vote_average": 7.5,
-                "vote_count": 18268
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/cKPfiu9IcCW0fMdKdQBXe3PRtTZ.jpg",
-                "genre_ids": [
-                    28,
-                    80,
-                    18,
-                    53
-                ],
-                "id": 49026,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "The Dark Knight Rises",
-                "overview": "Following the death of District Attorney Harvey Dent, Batman assumes responsibility for Dent's crimes to protect the late attorney's reputation and is subsequently hunted by the Gotham City Police Department. Eight years later, Batman encounters the mysterious Selina Kyle and the villainous Bane, a new terrorist leader who overwhelms Gotham's finest. The Dark Knight resurfaces to protect a city that has branded him an enemy.",
-                "poster_path": "/vzvKcPQ4o7TjWeGIn0aGC9FeVNu.jpg",
-                "release_date": "2012-07-16",
-                "title": "The Dark Knight Rises",
-                "video": false,
-                "vote_average": 7.8,
-                "vote_count": 18154
-            }
+        "also_known_as": [
+            "Edward Thomas Hardy",
+            "Том Харди",
+            "توم هاردي",
+            "톰 하디",
+            "トム・ハーディ",
+            "ทอม ฮาร์ดี",
+            "汤姆·哈迪",
+            "ტომ ჰარდი",
+            "Edward Thomas \"Tom\" Hardy",
+            "Έντουαρντ Τόμας \"Τομ\" Χάρντι",
+            "Έντουαρντ Τόμας Χάρντι",
+            "Τομ Χάρντι",
+            "Том Гарді"
         ],
+        "biography": "Edward Thomas \"Tom\" Hardy (born 15 September 1977) is an English actor. He is best known for playing the title character in the 2009 British film Bronson, and for his roles in the films Star Trek Nemesis, RocknRolla, and Inception. He has been cast in the Christopher Nolan film The Dark Knight Rises as Bane.",
+        "birthday": "1977-09-15",
+        "deathday": null,
+        "gender": 2,
+        "homepage": null,
+        "id": 2524,
+        "imdb_id": "nm0362766",
         "known_for_department": "Acting",
         "name": "Tom Hardy",
-        "popularity": 28.276,
+        "place_of_birth": "Hammersmith, London, England, UK",
+        "popularity": 24.92,
         "profile_path": "/sGMA6pA2D6X0gun49igJT3piHs3.jpg"
     },
     {
         "adult": false,
-        "gender": 2,
-        "id": 976,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/mRfI3y2oAd7ejur2di09xC9niqp.jpg",
-                "genre_ids": [
-                    28,
-                    53,
-                    80
-                ],
-                "id": 82992,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Fast & Furious 6",
-                "overview": "Hobbs has Dominic and Brian reassemble their crew to take down a team of mercenaries: Dominic unexpectedly gets convoluted also facing his presumed deceased girlfriend, Letty.",
-                "poster_path": "/n31VRDodbaZxkrZmmzyYSFNVpW5.jpg",
-                "release_date": "2013-05-21",
-                "title": "Fast & Furious 6",
-                "video": false,
-                "vote_average": 6.8,
-                "vote_count": 8813
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/cHkhb5A4gQRK6zs6Pv7zorHs8Nk.jpg",
-                "genre_ids": [
-                    28,
-                    53,
-                    80,
-                    12
-                ],
-                "id": 168259,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Furious 7",
-                "overview": "Deckard Shaw seeks revenge against Dominic Toretto and his family for his comatose brother.",
-                "poster_path": "/wurKlC3VKUgcfsn0K51MJYEleS2.jpg",
-                "release_date": "2015-04-01",
-                "title": "Furious 7",
-                "video": false,
-                "vote_average": 7.3,
-                "vote_count": 8575
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/jzdnhRhG0dsuYorwvSqPqqnM1cV.jpg",
-                "genre_ids": [
-                    28,
-                    80,
-                    53
-                ],
-                "id": 337339,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "The Fate of the Furious",
-                "overview": "When a mysterious woman seduces Dom into the world of crime and a betrayal of those closest to him, the crew face trials that will test them as never before.",
-                "poster_path": "/dImWM7GJqryWJO9LHa3XQ8DD5NH.jpg",
-                "release_date": "2017-04-12",
-                "title": "The Fate of the Furious",
-                "video": false,
-                "vote_average": 6.9,
-                "vote_count": 8425
-            }
+        "also_known_as": [
+            "Джейсон Стейтем",
+            "Джейсон Стэйтем",
+            "جيسون ستاثام",
+            "제이슨 스테이섬",
+            "ジェイソン・ステイサム",
+            "เจสัน สเตธัม",
+            "傑森·史塔森",
+            "Джейсън Стейтъм",
+            "ჯეისონ სტეტჰემი",
+            "Τζέισον Στέιθαμ",
+            "JS",
+            "杰森·斯坦森"
         ],
+        "biography": "Jason Statham is an English actor and martial artist, known for his roles in the Guy Ritchie crime films Lock, Stock and Two Smoking Barrels; Revolver; and Snatch. Statham appeared in supporting roles in several American films, such as The Italian Job, as well as playing the lead role in The Transporter, Crank, The Bank Job, War (opposite martial arts star Jet Li), and Death Race. Statham solidified his status as an action hero by appearing alongside established action film actors Sylvester Stallone, Arnold Schwarzenegger, Bruce Willis, Jet Li and Dolph Lundgren in The Expendables. He normally performs his own fight scenes and stunts.",
+        "birthday": "1967-07-26",
+        "deathday": null,
+        "gender": 2,
+        "homepage": null,
+        "id": 976,
+        "imdb_id": "nm0005458",
         "known_for_department": "Acting",
         "name": "Jason Statham",
-        "popularity": 27.907,
+        "place_of_birth": "Shirebrook, Derbyshire, England, UK",
+        "popularity": 38.23,
         "profile_path": "/lldeQ91GwIVff43JBrpdbAAeYWj.jpg"
     },
     {
         "adult": false,
-        "gender": 2,
-        "id": 1914924,
-        "known_for": [
-            {
-                "backdrop_path": "/xWBD0BqiPsmXBZNeT6UMCMdMXvX.jpg",
-                "first_air_date": "2021-02-22",
-                "genre_ids": [
-                    18,
-                    10759,
-                    10765,
-                    9648
-                ],
-                "id": 119362,
-                "media_type": "tv",
-                "name": "Word of Honor",
-                "origin_country": [
-                    "CN"
-                ],
-                "original_language": "zh",
-                "original_name": "山河令",
-                "overview": "Zhou Zi Shu gets embroiled in a conspiracy in the martial arts world after quitting his job as the leader of an organization tasked with protecting royalty. He meets Wen Ke Xing, a mysterious martial artist who escapes from the Ghost Valley to avenge his parents’ deaths. They become fast friends and embark on an adventure to find a legendary treasure that will give its owner ultimate power over jianghu.",
-                "poster_path": "/jVvTKXn2n4heociVDa6FJaTe3tp.jpg",
-                "vote_average": 8.6,
-                "vote_count": 10
-            },
-            {
-                "backdrop_path": "/gi0dqXQ4sD50AgnlU8fJdczkx0x.jpg",
-                "first_air_date": "2017-12-07",
-                "genre_ids": [
-                    18,
-                    35
-                ],
-                "id": 80538,
-                "media_type": "tv",
-                "name": "Dragon Day, You're Dead",
-                "origin_country": [
-                    "CN"
-                ],
-                "original_language": "zh",
-                "original_name": "龙日一，你死定了",
-                "overview": "On the first day of Zhang Jingmei's transfer to top elite school Bencheng College, she encounters the \"campus devil\", Long Riyi. Their contention towards each other begins a love affair that affects the rest of the school.",
-                "poster_path": "/z8RpAqsf9o35IkTrdYPFalTW6sn.jpg",
-                "vote_average": 7.4,
-                "vote_count": 5
-            },
-            {
-                "backdrop_path": "/3ESw5fH4zHGbgXD8KukFW3SY8xu.jpg",
-                "first_air_date": "2019-06-11",
-                "genre_ids": [
-                    35,
-                    18
-                ],
-                "id": 94831,
-                "media_type": "tv",
-                "name": "Fall in Love",
-                "origin_country": [
-                    "CN"
-                ],
-                "original_language": "zh",
-                "original_name": "当她恋爱时",
-                "overview": "A mysterious young woman with shifting identities and a playful but kind man fall into a sweet and healing romance.",
-                "poster_path": "/hxCozNCnSQgGjh8Xq43yytqFzKa.jpg",
-                "vote_average": 9,
-                "vote_count": 2
-            }
+        "also_known_as": [
+            "Wei Zhe Ming",
+            "Miles Wei",
+            "魏哲鸣",
+            "Wei Zhe-Ming",
+            "Wei Zheming"
         ],
+        "biography": "",
+        "birthday": "1990-05-23",
+        "deathday": null,
+        "gender": 2,
+        "homepage": null,
+        "id": 1914924,
+        "imdb_id": "nm11256195",
         "known_for_department": "Acting",
         "name": "Miles Wei",
-        "popularity": 27.649,
+        "place_of_birth": "Jinan, Shandong Province, China",
+        "popularity": 38.114,
         "profile_path": "/fT4v4LTDXGEFGHe7ZAaRTtqBFYM.jpg"
     },
     {
         "adult": false,
-        "gender": 1,
-        "id": 3136,
-        "known_for": [
-            {
-                "adult": false,
-                "backdrop_path": "/nM1kHUIalqE2cr3el1A06yKUlha.jpg",
-                "genre_ids": [
-                    12,
-                    16,
-                    35,
-                    14
-                ],
-                "id": 223702,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Sausage Party",
-                "overview": "Frank leads a group of supermarket products on a quest to discover the truth about their existence and what really happens when they become chosen to leave the grocery store.",
-                "poster_path": "/6jjOY2Vgii2wbUOYNWkMLLqnpZB.jpg",
-                "release_date": "2016-07-11",
-                "title": "Sausage Party",
-                "video": false,
-                "vote_average": 5.7,
-                "vote_count": 5808
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/7KsqfXDECZMryX1Rv4RKsT7SIjQ.jpg",
-                "genre_ids": [
-                    53,
-                    35,
-                    80,
-                    28
-                ],
-                "id": 390043,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "The Hitman's Bodyguard",
-                "overview": "The world's top bodyguard gets a new client, a hit man who must testify at the International Court of Justice. They must put their differences aside and work together to make it to the trial on time.",
-                "poster_path": "/5CGjlz2vyBhW5xHW4eNOZIdgzYq.jpg",
-                "release_date": "2017-08-16",
-                "title": "The Hitman's Bodyguard",
-                "video": false,
-                "vote_average": 6.9,
-                "vote_count": 4568
-            },
-            {
-                "adult": false,
-                "backdrop_path": "/kEpK8oY9UfzOrKXPyfZ6NMea2EH.jpg",
-                "genre_ids": [
-                    35
-                ],
-                "id": 38365,
-                "media_type": "movie",
-                "original_language": "en",
-                "original_title": "Grown Ups",
-                "overview": "After their high school basketball coach passes away, five good friends and former teammates reunite for a Fourth of July holiday weekend.",
-                "poster_path": "/cQGM5k1NtU85n4TUlrOrwijSCcm.jpg",
-                "release_date": "2010-06-24",
-                "title": "Grown Ups",
-                "video": false,
-                "vote_average": 6.3,
-                "vote_count": 4544
-            }
+        "also_known_as": [
+            "셀마 헤이엑",
+            "Σάλμα Χάγιεκ",
+            "Са́льма Ха́йек",
+            "살마 아예크"
         ],
+        "biography": "Salma Hayek Pinault (born Salma Valgarma Hayek Jiménez; September 2, 1966) is a Mexican and American actress and producer. She began her career in Mexico starring in the telenovela Teresa and starred in the film El Callejón de los Milagros (Miracle Alley) for which she was nominated for an Ariel Award. In 1991, Hayek moved to Hollywood and came to prominence with roles in films such as Desperado (1995), From Dusk till Dawn (1996), Wild Wild West, and Dogma (both 1999).\n\nHayek's breakthrough role was in the 2002 film Frida, as Mexican painter Frida Kahlo, for which she was nominated for Best Actress for the Academy Awards, the BAFTA Film Awards, the Golden Globe Awards, and the Screen Actors Guild Awards, and which she also produced. This movie received widespread attention and was a critical and commercial success.\n\nHayek won the Daytime Emmy Award for Outstanding Directing in a Children/Youth/Family Special for The Maldonado Miracle in 2004, and received a Primetime Emmy Award nomination for Outstanding Guest Actress in a Comedy Series after guest-starring in the ABC television comedy-drama Ugly Betty in 2007. She also guest-starred on the NBC comedy series 30 Rock from 2009 to 2013. In 2017, she was nominated for an Independent Spirit Award for her role in Beatriz at Dinner.\n\nHayek's subsequent films include Grown Ups (2010), Puss in Boots (2011), Grown Ups 2 (2013), Tale of Tales (2015), Sausage Party (2016), The Hitman's Bodyguard (2017), Like a Boss (2020) and The Hitman's Wife's Bodyguard (2021).\n\nDescription above from the Wikipedia article Salma Hayek, licensed under CC-BY-SA, full list of contributors on Wikipedia.",
+        "birthday": "1966-09-02",
+        "deathday": null,
+        "gender": 1,
+        "homepage": null,
+        "id": 3136,
+        "imdb_id": "nm0000161",
         "known_for_department": "Acting",
         "name": "Salma Hayek",
-        "popularity": 27.44,
+        "place_of_birth": "Coatzacoalcos, Veracruz, Mexico",
+        "popularity": 13.864,
         "profile_path": "/a1VhN6kvw4tuRrIvGnvAjHAWnD5.jpg"
     }
 ];
