@@ -1,15 +1,17 @@
 import userModel from '../api/users/userModel';
 import movieModel from '../api/movies/movieModel';
+import personModel from '../api/people/personModel';
 import {movies} from './movies.js';
+import {people} from './people.js';
 
 const users = [
   {
-    'username': 'user1',
-    'password': 'test1',
+    "username": "user1",
+    "password": "test1"
   },
   {
-    'username': 'user2',
-    'password': 'test2',
+    "username": "user2",
+    "password": "test2"
   },
 ];
 
@@ -34,5 +36,17 @@ export async function loadMovies() {
     console.info(`${movies.length} Movies were successfully stored.`);
   } catch (err) {
     console.error(`failed to Load movie Data: ${err}`);
+  }
+}
+
+export async function loadPeople() {
+  console.log('load seed data');
+  console.log(people.length);
+  try {
+    await personModel.deleteMany();
+    await personModel.collection.insertMany(people);
+    console.info(`${people.length} People were successfully stored.`);
+  } catch (err) {
+    console.error(`failed to Load person Data: ${err}`);
   }
 }

@@ -66,7 +66,7 @@ router.post('/:userName/favourites', async (req, res, next) => {
   const user = await User.findByUserName(userName);
   await user.favourites.addToSet(movie._id);
   await user.save();
-  res.status(201).json(user).catch(next);
+  res.status(201).json(movie).catch(next);
 });
 
 router.delete('/:userName/favourites', async (req, res, next) => {
@@ -80,11 +80,13 @@ router.delete('/:userName/favourites', async (req, res, next) => {
 });
 
 
-router.get('/:userName/favourites', (req, res, next) => {
+router.get('/:userName/favourites', async(req, res, next) => {
   const userName = req.params.userName;
-  User.findByUserName(userName).populate('favourites').then(
-    user => res.status(201).json(user.favourites)
-  ).catch(next);
+  const user = await User.findByUserName(userName);
+  // User.findByUserName(userName).populate('favourites').then(
+  //   user => res.status(200).send(user.favourites)
+  // ).catch(next);
+  res.status(201).json(user.favourites).catch(next);
 });
 
 //Watch List Functionallity
