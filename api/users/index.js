@@ -80,13 +80,12 @@ router.delete('/:userName/favourites', async (req, res, next) => {
 });
 
 
-router.get('/:userName/favourites', async(req, res, next) => {
+router.get('/:userName/favourites', async (req, res, next) => {
   const userName = req.params.userName;
-  const user = await User.findByUserName(userName);
-  // User.findByUserName(userName).populate('favourites').then(
-  //   user => res.status(200).send(user.favourites)
-  // ).catch(next);
-  res.status(201).json(user.favourites).catch(next);
+  await User.findByUserName(userName).then(
+    user => res.status(200).send(user.favourites)
+  ).catch(next);
+  // res.status(201).send(user.favourites).catch(next);
 });
 
 //Watch List Functionallity
@@ -126,25 +125,27 @@ router.post('/:userName/following', async (req, res, next) => {
   const userName = req.params.userName;
   const person = await personModel.findByPersonDBId(follow);
   const user = await User.findByUserName(userName);
-  await user.following.addToSet(person._id);
+  await user.following.addToSet(person);
   await user.save();
 
   res.status(201).json(user).catch(next);
 });
 
-router.get('/:userName/following', (req, res, next) => {
+router.get('/:userName/following', async (req, res, next) => {
   const userName = req.params.userName;
-  User.findByUserName(userName).populate('following').then(
-    user => res.status(201).json(user.following)
+  await User.findByUserName(userName).then(
+    user => res.status(201).send(user.following)
   ).catch(next);
 });
 
-router.delete('/:userName/following', async(req, res, next) => {
-  const userName = req.params.userName;
-  const follow = req.body.id;
-  const person = await personModel.findByPersonDBId(follow);
-  const user = await User.findByUserName(userName);
 
+
+
+router.delete('/:userName/following', async (req, res, next) => {
+  const follow = req.body.id;
+  const userName = req.params.userName;
+  const person = await personModel.find(follow);
+  const user = await User.findByPersonDBId(userName);
   await user.following.splice(person._id, 1);
   await user.save();
 
